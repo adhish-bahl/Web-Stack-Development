@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate</title>
+</head>
+<body>
+    <div class="exchangeRate" style="display: flex; justify-content: space-around; margin-top: 50px;">
+        <select name="fromCurr" id="fromCurr">
+            <option value="AED">United Arab Emirates Dirham</option>
+            <option value="ARS">Argentine Peso</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="CHF">Swiss Franc</option>
+            <option value="HKD">Hong Kong Dollar</option>
+            <option value="IDR">Indonesian Rupiah</option>
+            <option value="INR">Indian Rupee</option>
+            <option value="JPY">Japanese Yen</option>
+            <option value="LKR">Sri Lankan Rupee</option>
+            <option value="THB">Thai Baht</option>
+            <option value="USD">United States Dollar</option>
+        </select>
+
+        <div class="input">
+            <input type="number" name="amount" id="amount">
+        </div>
+
+        <select name="toCurr" id="toCurr">
+            <option value="AED">United Arab Emirates Dirham</option>
+            <option value="ARS">Argentine Peso</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="CHF">Swiss Franc</option>
+            <option value="HKD">Hong Kong Dollar</option>
+            <option value="IDR">Indonesian Rupiah</option>
+            <option value="INR">Indian Rupee</option>
+            <option value="JPY">Japanese Yen</option>
+            <option value="LKR">Sri Lankan Rupee</option>
+            <option value="THB">Thai Baht</option>
+            <option value="USD">United States Dollar</option>
+        </select>
+    </div>
+    <div class="button" style="display: flex; justify-content: space-around; margin-top: 50px;">
+        <button id="convertButton" type="button">Convert</button>
+    </div>
+    <div id="resultDisplay" style="display: flex; justify-content: space-around; margin-top: 50px;"></div>
+    <script src="script.js"></script>
+</body>
+</html>

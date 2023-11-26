@@ -1,0 +1,35 @@
+body, #container  {
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+#dogImgContainer {
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(207, 255, 239);
+    margin: 2rem;
+    box-shadow: 6px 6px 18px -1px rgba(0,0,0,0.75);
+}
+
+#fetchButton {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(38, 181, 181);
+    font-size: 1.2rem;
+}
+
+#fetchButton:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7daa93;
+}
+  
+form {
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    width: 50vh;
+    padding: 4rem;
+    border-radius: 10px;
+}
+  
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+  
+input {
+    width: 85%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    width: fit-content;
+}
+
+.terms-conditions {
+    display: inline-block;
+    
+}
+
+.input-with-status {
+    width: 100%;
+}
+  
+.validation-status {
+    display: inline-block;
+    margin-left: 5px;
+}
+  
+.valid {
+    border-color: green;
+    border-width: 2px;
+}
+
+.invalid {
+    border-color: red;
+    border-width: 2px;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: rgb(52, 50, 50);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    min-width: fit-content;
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 18px -1px rgba(0,0,0,0.75);
+} 

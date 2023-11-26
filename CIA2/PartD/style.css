@@ -1,0 +1,25 @@
+body, #container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+table td, th{
+    padding: 8px;
+    text-align: center;
+}
+
+table tr:hover {
+    cursor: pointer;
+    background-color: rgb(114, 225, 188);
+}
+
+table {
+    margin: 1rem;
+    min-width: 50vw;
+}

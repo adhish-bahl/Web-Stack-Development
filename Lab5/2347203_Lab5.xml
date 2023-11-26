@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2347203_Lab5.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product>
+        <id>P101</id>
+        <name>DJ Khaled x Air Jordan 3 'Grateful'</name>
+        <price>100000</price>
+        <description>First in our lineup of the most expensive shoes in the world, we have DJ Khaled's Jordans, made to commemorate the release of Khaled's 'Grateful' album. Released in a flamboyant shade of red that is not for the fainthearted.</description>
+        <image>https://cdn.luxe.digital/media/20220316140635/most-expensive-sneakers-dj-khaled-x-air-jordan-3-grateful-review-luxe-digital-900x600.jpg.webp</image>
+    </product>
+
+    <product>
+        <id>P102</id>
+        <name>Macklemore x Air Jordan 6</name>
+        <price>125473</price>
+        <description>The results of another marriage between rapper and designer brand, this time the American rapper from Seattle, Washington, known as Macklemore. </description>
+        <image>https://cdn.luxe.digital/media/20220316140653/most-expensive-sneakers-macklemore-x-air-jordan-6-review-luxe-digital-900x600.jpg.webp</image>
+    </product>
+    
+    <product>
+        <id>P103</id>
+        <name>Eminem X Carhartt Air Jordan 4</name>
+        <price>84652</price>
+        <description>One of Eminem's most sought-after sneaker collaborations, these were one of the first shoes ever to be sold directly through eBay. Only 10 pairs were ever made for the public, and all the proceeds from sales went to Michigan State University's music school.</description>
+        <image>https://cdn.luxe.digital/media/20220316140640/most-expensive-sneakers-eminem-x-carhart-air-jordan-4-review-luxe-digital-900x600.jpg.webp</image>
+    </product>
+    
+    <product>
+        <id>P104</id>
+        <name>Nike Dunk SB Low Freddy Kruger</name>
+        <price>110248</price>
+        <description>Your very own nightmare on sneaker street and perhaps one of the most gruesome designs in sneaker history. These Nike Dunks pay tribute to the slasher who haunts through the green and red stripes which recall Freddy's jumper to the silver metallic swoosh whichblades that extend from Freddy's gloves.</description>
+        <image>https://cdn.luxe.digital/media/20220316140711/most-expensive-sneakers-nike-dunk-sb-low-freddy-kruger-review-luxe-digital-900x600.jpg.webp</image>
+    </product>
+    
+    <product>
+        <id>P105</id>
+        <name>Air Jordan 11 “Jeter”</name>
+        <price>235456</price>
+        <description>If you are looking to invest in an elegant, sophisticated pair of sneakers that will resist the vagaries of fashion, then these velvety, midnight blue high-tops may be just the trainer for you. Only 5 of these pairs were released, to commemorate the retirement of Derek Jeter.</description>
+        <image>https://cdn.luxe.digital/media/20220316140609/most-expensive-sneakers-air-jordan-11-jeter-review-luxe-digital-900x600.jpg.webp</image>
+    </product>
+    
+    <product>
+        <id>P106</id>
+        <name>Air Jordan 2 OG</name>
+        <price>58432</price>
+        <description>Apparently, the mold used to create this particular sneaker somehow got lost or disappeared, making the Air Jordan OG 2 sneakers into a rare collector's item, so much so that a 28-year-old pair of worn Jordan 2 originals were auctioned off on Ebay</description>
+        <image>https://cdn.luxe.digital/media/20220316140604/most-expensive-sneakers-air-jordan-2-og-review-luxe-digital-900x600.jpg.webp</image>
+    </product>
+    
+    <product>
+        <id>P107</id>
+        <name>Nike MAG Back to the Future (2016)</name>
+        <price>453654</price>
+        <description>Perhaps the most sought-after sneaker of all time, the Nike Air Mag was first seen on our screens in 'Back to the Future II', though the light-up detailing and auto-lacing technology were achieved, at the time, by special cinematic effects. </description>
+        <image>https://cdn.luxe.digital/media/20220316140729/most-expensive-sneakers-nike-mag-back-to-the-future-2016-review-luxe-digital-900x600.jpg.webp</image>
+    </product>
+    
+    <product>
+        <id>P108</id>
+        <name>Buscemi 100mm Diamond</name>
+        <price>499999</price>
+        <description>Is it the most expensive tennis shoe ever made? Jewelry or footwear? Good questions, when a shoe is loaded up with 11.5 carats of diamonds set in 18-karat gold, you could be forgiven for wondering. This bright white sneaker is not actually made for the tennis court.</description>
+        <image>https://cdn.luxe.digital/media/20220316140627/most-expensive-sneakers-buscemi-100mm-diamond-review-luxe-digital-900x600.jpg.webp</image>
+    </product>
+    
+    <product>
+        <id>P109</id>
+        <name>Michael Jordan Game Worn Converse Fastbreak</name>
+        <price>325412</price>
+        <description>In 1984 Michael Jordan and Team USA won gold at the Olympics in Los Angeles. 30 years later, a pair of Converse Fastbreaks signed by Jordan and said to have been worn on the court at the Olympics. These trainers are considered to be the last pair Michael Jordan wore in a game as an amateur.</description>
+        <image>https://cdn.luxe.digital/media/20220316140658/most-expensive-sneakers-michael-jordan-game-worn-converse-fastbreak-review-luxe-digital-900x600.jpg.webp</image>
+    </product>
+    
+    <product>
+        <id>P110</id>
+        <name>Apple Inc. Omega Sports Apple Computer Sneakers</name>
+        <price>253610</price>
+        <description>These incredibly rare sneakers, custom-made exclusively for Apple employees, have become one of the most highly valued pairs available for purchase. Created as a special giveaway during a National Sales Conference in the mid-1990s, these rare sneakers were never made available to the general public.</description>
+        <image>https://sothebys-com.brightspotcdn.com/dims4/default/212af4c/2147483647/strip/true/crop/670x410+0+0/resize/684x419!/format/webp/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F73%2Fc8%2Fc0777f2340629fdbad518e20c370%2Fsothebys-md.brightspotcdn-1.jpg</image>
+    </product>
+    
+</products>

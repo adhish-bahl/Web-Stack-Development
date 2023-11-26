@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/921fb3aa6f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(29, 43, 56);">
+    <div class="container-fluid">
+        <span class="navbar-brand" style="font-size: 2rem;">Adhish Bahl</span>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav float-end d-flex justify-content-end w-100">
+              <li class="nav-item mx-1">
+                <a class="nav-link active" href="./index.html">
+                    <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                    <span style="padding-left: 5px;">Home</span>
+                </a>
+            </li>
+            <li class="nav-item mx-1">
+                <a class="nav-link  " href="./gallery.html">
+                    <i class="fa-solid fa-image" style="color: #ffffff;"></i>
+                    <span style="padding-left: 5px;">Gallery</span>
+                </a>
+            </li>
+            <li class="nav-item mx-1">
+                <a class="nav-link  " href="./contact.html">
+                    <i class="fa-solid fa-message" style="color: #ffffff;"></i>
+                    <span style="padding-left: 5px;">Contact Me</span>
+                </a>
+            </li>
+            <li class="nav-item mx-1">
+                <a class="nav-link  " href="./parallax.html">
+                    <i class="fa-solid fa-scroll" style="color: #ffffff;"></i>
+                    <span  style="padding-left: 5px;">About Me</span>
+                </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="carouselRandomImages" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner" style="height: 70vh;">
+          <div class="carousel-item active">
+            <img src="./images/img1.jpg" class="d-block w-100" alt="randomImg">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img3.jpg" class="d-block w-100" alt="randomImg">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/img4.jpg" class="d-block w-100" alt="randomImg">
+        </div>
+          <div class="carousel-item">
+            <img src="./images/img2.png" class="d-block w-100" alt="randomImg">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselRandomImages" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselRandomImages" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="p-4 " style="background-color: #eff6ff;">
+        <h1 class="heading text-center text-bold">About Me</h1>
+        <div class="d-flex">    
+            <div>
+                <img src="./images/myImg.jpeg" alt="myImage" style="border-radius: 50%; width: 10rem;border: black solid 1px;">
+            </div>
+            <div class="my-5 mx-3">
+                <div class="container" style="font-size: 1.5rem;">Hello, my name is Adhish Bahl and I am an Aspiring Full Stack Developer.</div>
+                <div class="container"  style="font-size: 1.5rem;">When it comes to skills in technical deparment, I have listed all my skills below.</div>
+            </div>
+        </div>
+      </div>
+
+      <div class="p-4 " style="background-color: #ffffff;">
+        <h1 class="heading text-center">Skills I Know</h1>
+        <div class="d-flex justify-content-around align-items-center" style=" padding: 0% 15vw;">    
+            <span class="skill" data-bs-toggle="modal" data-bs-target="#HTMLModal">HTML v5</span>
+            <span class="skill" data-bs-toggle="modal" data-bs-target="#CSSModal">CSS v3</span>
+            <span class="skill" data-bs-toggle="modal" data-bs-target="#JSModal">JavaScript</span>
+            <span class="skill" data-bs-toggle="modal" data-bs-target="#ReactModal">ReactJS</span>
+            <span class="skill" data-bs-toggle="modal" data-bs-target="#NPMModal">NPM</span>
+            <span class="skill" data-bs-toggle="modal" data-bs-target="#SQLModal">MySQL</span>
+        </div>
+      </div>
+
+      <section class="">
+        <footer class="text-center text-white py-3"  style="background-color: rgb(29, 43, 56);">
+          <div class="container">
+            <section class="">
+              <div class="d-flex justify-content-between w-100">
+                <span> © 2023 Copyright: Adhish Bahl</span>
+                <span>All Rights for Pictures are reserved</span>
+                <span class="">
+                    <a href="https://adhish-bahl.netlify.app/" class="mx-2"><i class="fa-solid fa-user fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="https://www.linkedin.com/in/adhishbahl/" class="mx-2"><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="https://github.com/adhish-bahl" class="mx-2"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="https://twitter.com/adhish_bahl" class="mx-2"><i class="fa-brands fa-x-twitter fa-xl" style="color: #ffffff;"></i></a>
+                </span>
+              </div>
+            </section>
+          </div>
+        </footer>
+      </section>
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+    <div class="modal fade" id="HTMLModal" tabindex="-1" aria-labelledby="HTMLModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="HTMLModalLabel">HTML v5</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>HTML 5 is the 5th Global standardisation of HTML (hypertext markup language) for the internet. It is the code that all of your web pages are written in and that tells your web browser what a given page should look like. The last time there was a global standardisation was in 1997.</p>
+                <p>HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is a combination of Hypertext and Markup language. Hypertext defines the link between web pages. A markup language is used to define the text document within the tag which defines the structure of web pages.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Understood</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="CSSModal" tabindex="-1" aria-labelledby="CSSModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="CSSModalLabel">CSS v3</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independently of the HTML that makes up each web page. It describes how a webpage should look: it prescribes colours, fonts, spacing, and much more. In short, you can make your website look however you want. CSS lets developers and designers define how it behaves, including how elements are positioned in the browser.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Understood</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="JSModal" tabindex="-1" aria-labelledby="JSModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="JSModalLabel">JavaScript</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language which is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it. JavaScript is a weakly typed language(dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments. JavaScript is both an imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements. </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Understood</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ReactModal" tabindex="-1" aria-labelledby="ReactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ReactModalLabel">ReactJS</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>ReactJS is a declarative, efficient, and flexible JavaScript library for building reusable UI components. It is an open-source, component-based front end library responsible only for the view layer of the application. It was created by Jordan Walke, who was a software engineer at Facebook. It was initially developed and maintained by Facebook and was later used in its products like WhatsApp & Instagram. Facebook developed ReactJS in 2011 in its newsfeed section, but it was released to the public in the month of May 2013.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Understood</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="NPMModal" tabindex="-1" aria-labelledby="NPMModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="NPMModalLabel">NPM</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>NPM is a Node Package Manager. It is the world's largest Software Registry. This registry contains over 800,000 code packages. Many Open-source developers use npm to share software. Many organizations also use npm to manage private development. “npm scripts” are the entries in the scripts field of the package.json file. The scripts field holds an object where you can specify various commands and scripts that you want to expose. </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Understood</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="SQLModal" tabindex="-1" aria-labelledby="SQLModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="SQLModalLabel">MySQL</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>MySQL tutorial provides basic and advanced concepts of MySQL. Our MySQL tutorial is designed for beginners and professionals. MySQL is a relational database management system based on the Structured Query Language, which is the popular language for accessing and managing the records in the database. MySQL is open-source and free software under the GNU license. It is supported by Oracle Company.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Understood</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+</body>
+</html>

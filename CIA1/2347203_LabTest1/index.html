@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>LearnWell | Home</title>
+
+    <style>
+      .card, form, .trendingArticles, .recentComments {
+          -webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+          -moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+          box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+		      margin-bottom: 10px;
+      }
+		  .card:hover {
+		  	transform: scale(1.04);
+		  	z-index: 10;
+		  	cursor: pointer;
+		  }
+      .hoverEffect:hover {
+        transform: scale(1.04);
+		    text-decoration: underline;
+      }
+		  .articleSidebar, .commentSidebar {
+        font-size: 1.1rem;
+		  }
+      .articleSidebar:hover, .commentSidebar:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .card-title {
+        text-decoration: underline;
+      }
+    </style>
+</head>
+<body style="background-color: rgb(234, 233, 233);">
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(86, 86, 124); color: white; margin-bottom: 3rem;">
+        <div class="container-fluid">
+          <a class="text-light mx-3" href="./index.html"><img src="./images/logo.png" alt="logo" style="width: 100px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link active text-light hoverEffect" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark m-0" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: rgb(73, 73, 106); color: white;">
+                        <li><a class="dropdown-item" href="./index.html">Computer Science</a></li>
+                        <li><a class="dropdown-item" href="#">Science</a></li>
+                        <li><a class="dropdown-item" href="#">Social Science</a></li>
+                        <li><a class="dropdown-item" href="#">Language</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <div class="d-flex mx-2">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark" type="submit">Search</button>
+              </div>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown" style="position: absolute; right: 20px;">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hello, Adhish Bahl
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark m-0" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: rgb(73, 73, 106); color: white;">
+                    <li><a class="dropdown-item" href="/profile.html">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Sign-out</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div>
+      <div style="display: inline-block; width: 70vw;">
+        <div class="articleList d-flex align-items-center justify-content-center flex-wrap">
+            <div class="heading"><h2 class="mb-3">Computer Science Articles</h2></div>
+
+            <div class="articleList d-flex align-items-center justify-content-center flex-wrap">
+                <div class="card mx-4 mt-3" style="width: 15rem;">
+                    <img class="card-img-top" src="./images/html.jpeg" alt="Thumbnail">
+                    <div class="card-body">
+                    <h5 class="card-title">HTML v5</h5>
+                    <p class="card-text">HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language. HTML is an abbreviation of Hypertext and Markup language. Hypertext defines the link between the web pages.</p>
+                    <a href="./articleHTML.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                <div class="card mx-4 mt-3" style="width: 15rem;">
+                    <img class="card-img-top" src="./images/css.png" alt="Thumbnail">
+                    <div class="card-body">
+                    <h5 class="card-title">CSS v3</h5>
+                    <p class="card-text">Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages.</p>
+                    <a href="./articleCSS.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                <div class="card mx-4 mt-3" style="width: 15rem;">
+                    <img class="card-img-top" src="./images/js.jpeg" alt="Thumbnail">
+                    <div class="card-body">
+                    <h5 class="card-title">JavaScript ES6</h5>
+                    <p class="card-text">Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages.</p>
+                    <a href="./articleJS.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                <div class="card mx-4 mt-3" style="width: 15rem;">
+                    <img class="card-img-top" src="./images/nodejs.jpeg" alt="Thumbnail">
+                    <div class="card-body">
+                    <h5 class="card-title">NodeJS</h5>
+                    <p class="card-text">Node.js is an open-source and cross-platform runtime environment for executing JavaScript code outside a browser. NodeJS is not a framework and it's not a programming language.</p>
+                    <a href="./articleNode.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                <div class="card mx-4 mt-3" style="width: 15rem;">
+                    <img class="card-img-top" src="./images/react.png" alt="Thumbnail">
+                    <div class="card-body">
+                    <h5 class="card-title">ReactJS</h5>
+                    <p class="card-text"> ReactJS is an open-source JavaScript library used to create user interfaces in a declarative and efficient way. It is a component-based front-end library responsible only for ...</p>
+                    <a href="./articleReact.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                <div class="card mx-4 mt-3" style="width: 15rem;">
+                    <img class="card-img-top" src="./images/mongo.jpeg" alt="Thumbnail">
+                    <div class="card-body">
+                    <h5 class="card-title">MongoDB</h5>
+                    <p class="card-text"> MongoDB, the most popular NoSQL database, is an open-source document-oriented database. The term 'NoSQL' means 'non-relational'. It means that MongoDB isn't based on ...</p>
+                    <a href="./articleMongo.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+                <div class="card mx-4 mt-3" style="width: 15rem;">
+                    <img class="card-img-top" src="./images/mysql.png" alt="Thumbnail">
+                    <div class="card-body">
+                    <h5 class="card-title">MySQL</h5>
+                    <p class="card-text">MySQL is an open-source relational database management system (RDBMS). It is the most popular database system used with PHP. MySQL is developed, distributed, and supported by Oracle Corporation.</p>
+                    <a href="./articleMySQl.html" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div style="display: inline-block; width: 25vw; border-left: 1px solid black;">
+        <div class="sideBar mx-3 d-flex align-items-center justify-content-center flex-wrap flex-column" style="margin-top: 1rem;">
+            <div class="trendingArticles w-100 mx-2" style="outline: 1px solid black; padding: 1rem; border-radius: 10px; margin-bottom: 2rem;">
+                <h2 style="font-weight: 500;">Trending Articles</h2>
+                <div class="mx-3 my-1 articleSidebar"><a href="./articleReact.html" class="text-dark" style="text-decoration: none;"> ReactJS</a></div>
+                <div class="mx-3 my-1 articleSidebar"><a href="./articleMongo.html" class="text-dark" style="text-decoration: none;"> MongoDB</a></div>
+                <div class="mx-3 my-1 articleSidebar"><a href="./articleCSS.html" class="text-dark" style="text-decoration: none;"> CSS v3</a></div>
+            </div>
+            <div class="recentComments w-100 mx-2" style="outline: 1px solid black; padding: 1rem; border-radius: 10px; margin-bottom: 2rem;">
+                <h2 style="font-weight: 500;">Recents Comments</h2>
+                <div class="mx-3 my-1 commentSidebar"><a href="./articleReact.html" class="text-dark" style="text-decoration: none;"> ReactJS is the future</a></div>
+                <div class="mx-3 my-1 commentSidebar"><a href="./articleMongo.html" class="text-dark" style="text-decoration: none;"> MongoDB is fun to work with!</a></div>
+                <div class="mx-3 my-1 commentSidebar"><a href="./articleCSS.html" class="text-dark" style="text-decoration: none;"> CSS frameworks makes alot more difference!</a></div>
+                <div class="mx-3 my-1 commentSidebar"><a href="./articleNode.html" class="text-dark" style="text-decoration: none;"> Node, I am coming to learn you!</a></div>
+            </div>
+            <div class="form d-flex justify-content-center align-items-center" >
+                <form style="width: 100%; outline: 1px solid black; padding: 2rem; border-radius: 5px; background-color: white;">
+                      <h3>Monthly Subscription Form</h3>
+                      <div id="headingHelp" class="form-text">We send you Article on your E-mail on daily basis! Subscribe us now! It's free!</div>
+                      <div class="my-3">
+                        <label for="inputName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="inputName" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="nputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="nputEmail1" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" required>
+                          <label class="form-check-label" for="disabledFieldsetCheck">
+                            I agree to all the <a href="#" target="_blank">Terms and Condition</a>
+                          </label>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-dark">Submit</button>
+                  </form>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer py-3"  style="background-color: rgb(86, 86, 124); color: white; margin-top: 3rem;">
+        <div class="container d-flex justify-content-between align-content-center">
+            <div class="copyright"><b>All Articles and Pictures have a copyright to their owner.</b></div>
+            <div class="icons">
+                <a href="http://twitter.com" class="mx-3"><img src="./images/twitter.png" alt="twitter" style="width: 80px;" ></a>
+                <a href="http://facebook.com" class="mx-3"><img src="./images/facebook.png" alt="facebook" style="width: 50px;" ></a>
+            </div>
+            <div class="info"><b>E-mail us at:</b> learnwell@gmail.com</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

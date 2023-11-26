@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2347203_dogs.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<dogs>
+    <dog>
+        <breed> Golden Retriever </breed>
+        <color> Golden </color>
+        <country> United States</country>
+    </dog>
+    <dog>
+        <breed> German Shepherd </breed> 
+        <color> Black and Tan </color> 
+        <country> Germany</country>
+    </dog>
+    <dog>
+        <breed> Poodle </breed> 
+        <color> White </color> 
+        <country> France</country>
+    </dog>
+    <dog>
+        <breed> Bulldog </breed> 
+        <color> Brindle </color> 
+        <country> United Kingdom</country>
+    </dog>
+    <dog>
+        <breed> Labrador Retriever </breed> 
+        <color> Yellow </color> 
+        <country> Canada</country>
+    </dog>
+    <dog>
+        <breed> Boxer </breed> 
+        <color> Fawn </color> 
+        <country> Germany</country>
+    </dog>
+    <dog>
+        <breed> Beagle </breed> 
+        <color> Tri-color </color> 
+        <country> United Kingdom</country>
+    </dog>
+    <dog>
+        <breed> Dachshund </breed> 
+        <color> Red </color> 
+        <country> Germany</country>
+    </dog>
+    <dog>
+        <breed> Doberman Pinscher </breed> 
+        <color> Black and Tan </color> 
+        <country> Germany</country>
+    </dog>
+    <dog>
+        <breed> Rottweiler </breed> 
+        <color> Black and Tan </color> 
+        <country> Germany</country>
+    </dog>
+    <dog>
+        <breed> Siberian Husky </breed> 
+        <color> Black and White </color> 
+        <country> Russia</country>
+    </dog>
+    <dog>
+        <breed> Shih Tzu </breed> 
+        <color> Various </color> 
+        <country> Tibet</country>
+    </dog>
+    <dog>
+        <breed> Yorkshire Terrier </breed> 
+        <color> Blue and Tan </color> 
+        <country> United Kingdom</country>
+    </dog>
+    <dog>
+        <breed> Chihuahua </breed> 
+        <color> Various </color> 
+        <country> Mexico</country>
+    </dog>
+    <dog>
+        <breed> Pomeranian </breed> 
+        <color> Various </color> 
+        <country> Germany</country>
+    </dog>
+    <dog>
+        <breed> Boston Terrier </breed> 
+        <color> Tuxedo </color> 
+        <country> United States</country>
+    </dog>
+    <dog>
+        <breed> Great Dane </breed> 
+        <color> Various </color> 
+        <country> Germany</country>
+    </dog>
+    <dog>
+        <breed> Cocker Spaniel </breed> 
+        <color> Various </color> 
+        <country> United States</country>
+    </dog>
+    <dog>
+        <breed> Pug </breed> 
+        <color> Fawn </color> 
+        <country> China</country>
+    </dog>
+    <dog>
+        <breed> Shiba Inu </breed> 
+        <color> Red </color> 
+        <country> Japan</country>
+    </dog>
+    <dog>
+        <breed> Basset Hound </breed> 
+        <color> Tricolor </color> 
+        <country> France</country>
+    </dog>
+    <dog>
+        <breed> Bernese Mountain Dog </breed> 
+        <color> Black, White, and Rust </color> 
+        <country> Switzerland</country>
+    </dog>
+    <dog>
+        <breed> Rhodesian Ridgeback </breed> 
+        <color> Wheaten </color> 
+        <country> Zimbabwe</country>
+    </dog>
+    <dog>
+        <breed> Irish Setter </breed> 
+        <color> Mahogany </color> 
+        <country> Ireland</country>
+    </dog>
+    <dog>
+        <breed> Shetland Sheepdog </breed> 
+        <color> Various </color> 
+        <country> United Kingdom</country>
+    </dog>
+    <dog>
+        <breed> Miniature Schnauzer </breed> 
+        <color> Salt and Pepper </color> 
+        <country> Germany</country>
+    </dog>
+    <dog>
+        <breed> Alaskan Malamute </breed> 
+        <color> Various </color> 
+        <country> United States</country>
+    </dog>
+    <dog>
+        <breed> Collie </breed> 
+        <color> Sable and White </color> 
+        <country> United Kingdom</country>
+    </dog>
+    <dog>
+        <breed> Papillon </breed> 
+        <color> Various </color> 
+        <country> France</country>
+    </dog>
+    <dog>
+        <breed> West Highland White Terrier </breed> 
+        <color> White </color> 
+        <country> United Kingdom</country>
+    </dog>
+</dogs>

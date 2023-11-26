@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2347203_Lab4.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product>
+        <id>P101</id>
+        <name>Travis Scott x Air Jordan 1 Low</name>
+        <price>498.32</price>
+        <quantity>29</quantity>
+        <category>Clothing</category>
+    </product>
+    <product>
+        <id>P102</id>
+        <name>iPhone 14</name>
+        <price>360.99</price>
+        <quantity>160</quantity>
+        <category>Electronics</category>
+    </product>
+    <product>
+        <id>P103</id>
+        <name>Rick Daddy Poor Daddy</name>
+        <price>10.50</price>
+        <quantity>300</quantity>
+        <category>Books</category>
+    </product>
+    <product>
+        <id>P104</id>
+        <name>To kill a Mockingbird</name>
+        <price>153.39</price>
+        <quantity>360</quantity>
+        <category>Books</category>
+    </product>
+    <product>
+        <id>P105</id>
+        <name>Jack and Jones White Tee</name>
+        <price>259.69</price>
+        <quantity>900</quantity>
+        <category>Clothing</category>
+    </product>
+    <product>
+        <id>P106</id>
+        <name>iPod gen 9</name>
+        <price>399.99</price>
+        <quantity>90</quantity>
+        <category>Electronics</category>
+    </product>
+</products>

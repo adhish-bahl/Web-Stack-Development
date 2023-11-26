@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;;
+}
+
+.navbar-brand {
+    font-family: 'Borel', cursive;
+    padding-top: 1.5rem;
+}
+
+.skill {
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    margin: 2rem;
+    border-radius: 100%;
+    background-color: #eff6ff;
+    font-weight: bold;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    background-color: rgb(29, 43, 56);
+    color: white;
+    cursor: pointer;
+}
+
+.canvas:active {
+    transform: scale(1.05);
+}
